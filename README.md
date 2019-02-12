@@ -7,7 +7,7 @@ Hierfür hat das Projekt die offizielle Rückendeckung des Kreisverbandes Groß-
 Die zugehörige, offizielle Github-Page ist https://github.com/drk-gg. Sie ist auf Grund des frühen Standes natürlich noch etwas Übersichtlich. Was wir dringend brauchen sind Personen mit Erfahrung in IT und Softwareentwicklung. Aktuell sind wir nur 2 Entwickler aus den Reihen des DRK Kreisverbandes Groß-Gerau und ein paar Softwareentwickler, die grundsätzlich Bereitschaft erklärt haben zu unterstützen.
 
 
-##Projekten zu denen es aktuell konkretere Überlegungen gibt:
+## Projekten zu denen es aktuell konkretere Überlegungen gibt:
 
 
 ### Betreuungsplatzverwaltung:
