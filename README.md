@@ -3,7 +3,7 @@
 Ziel ist es unsere Helfer zu entlasten bzw. zu unterstützen. Entwickelt jemand auf Basis von unserer Software etwas oder macht einen Pullrequest auf unseren Code. Super! Dann mussten wir keine Helferstunden oder Spendengelder dafür ausgeben und können gemeinsam ein besseres Gesamtergebnis zum Wohl der Helfer und der Bevölkerung erreichen.**
 
 
-Hierfür hat das Projekt die offizielle Rückendeckung des Kreisverbandes Groß-Gerau.
+Hierfür hat das Projekt die offizielle Rückendeckung des Kreisverbandes Groß-Gerau (Webseite www.drk-gg.de und Impressum: https://www.drk-gg.de/impressum.html)
 Die zugehörige, offizielle Github-Page ist https://github.com/drk-gg. Sie ist auf Grund des frühen Standes natürlich noch etwas Übersichtlich. Was wir dringend brauchen sind Personen mit Erfahrung in IT und Softwareentwicklung. Aktuell sind wir nur 2 Entwickler aus den Reihen des DRK Kreisverbandes Groß-Gerau und ein paar Softwareentwickler, die grundsätzlich Bereitschaft erklärt haben zu unterstützen.
 
 
