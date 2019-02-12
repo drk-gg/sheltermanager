@@ -19,7 +19,7 @@ Während der Hochphase der Flüchtlingsunterbringung 2015/16 war die Registrieru
 Begonnen wurde mit einem (Web-)App-Mock der die Registrierung von Betroffenen per App und/oder Browser ermöglichen soll. Im Nachgang sollen die Daten dann gegen einen (lokalen) Backend-Server oder Proxy gesyncht werden können. Die Eingabemaske in der App soll explizit den Registrierkarten des Suchdienstes bzw. Ausweis- und Bezugskarte nachgebaut sein. Das jeder Helfer erkennt wie das System zu benutzen ist bzw. eine solche Karte einfach überspielen kann. Später sollen dann "Expertenmasken" für Statistische Auswertungen, Verwaltungsaufgaben, schnellere Datenerfassung für Experten, etc. dazu kommen.
 Als Grundlage für die App ist aktuell geplant das Ionic-Framework zu benutzen (https://ionicframework.com/), da wir so relativ leicht Apps für diverse Endgeräte und Betriebsysteme mit der selben Codebasis erstellen können.
 Ein Github-Repo ist erstellt, aber der aktuelle Code noch nicht hochgeladen. https://github.com/drk-gg/sheltermanager. Der erste Code wird hochgeladen, sobald es mit dem Coden weitergeht (ca. Q2 2019).
-    Ein paar aktuelle Screenshots werden demnächst hochgeladen.
+Ein paar aktuelle Screenshots werden demnächst hochgeladen.
 
 #### 2. Anbindung an Xenios bzw. Backend von Xenios:
 
@@ -30,6 +30,7 @@ Die Registrierdaten aus der Betreuungsstellenverwaltung sollten mit Xenios gesyn
 Die Statistikdaten bzw. Lagerlogistikdaten sollten an eventuell an Einsatzleit- und/oder Stabssoftware gespiegelt werden können um Lagemeldungen zu erleichtern und Bestellungen auf dem Dienstweg vorzubereiten.
 
 #### 4. Anbindung an internationale Katastrophenschutzkoordinationslösungen (z.B. Sahana Eden oder Xenios-Backend)
+Zu welchen Systemen und zu welcher Software Schnittstellen geschaffen werden sollten oder müssen ist noch herrauszufinden.
 
 ### Neuimplementierung von Xenios bzw. alternativer kompatibeler Client:
 
