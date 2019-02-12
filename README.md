@@ -10,7 +10,7 @@ Die zugehörige, offizielle Github-Page ist https://github.com/drk-gg. Sie ist a
 Zu den Projekten zu denen es aktuell konkretere Überlegungen gibt:
 
 
-#Betreuungsplatzverwaltung:
+# Betreuungsplatzverwaltung:
 
 Während der Hochphase der Flüchtlingsunterbringung 2015/16 war die Registrierung und Verwaltung der Beleglisten und das Führen von gewissen Grunddaten extrem wichtig. Das selbe Problem haben wir eigentlich immer, wenn wir einen Betreuungsplatz 50 oder 500 aufbauen. Es müssen Bewohner verwaltet, Betten zugeordnet, Materialausgaben dokumentiert und Lagerlogistik überwacht werden. Diese ganzen Prozesse und Betriebsabläufe könnten gut mit einer oder mehreren Softwarelösungen unterstützt werden. Wir haben hier eine Funktionalitätslücke zwischen Xenios, Einsatzleitsoftware und Warenwirtschaftssystemen. Dieser Softwarestack würde sich gut durch eine Lösung ergänzen lassen, die auch ohne Internet (z.B. per WLAN und lokalem Server) einfach von unseren Helfern (auch ohne große IT-Kenntnisse) betrieben werden kann. 
 
