@@ -1,6 +1,6 @@
 # Projekt zur Entwicklung von OpenSource Software für Einsätze z.B im Tätigkeitsbereich des DRK
-Grundsätzlich möchten wir im Bereich des DRK gerne eigenentwickelte OpenSource Softwarelösungen als Strategie pushen. Grund ist folgender: Wir haben keinen Grund Lösungen, die wir selbst anfertigen oder anfertigen lassen nicht als OpenSource zu entwickeln  oder entwickeln zu lassen. Es gibt keine "echten" Wettbewerber (MHD, Johanniter, etc. haben auch nur begrenzte Helferresoucen und das Ziel Menschen zu helfen), wir verdienen mit der Software kein Geld, etc.
-Ziel ist es unsere Helfer zu entlasten bzw. zu unterstützen. Entwickelt jemand auf Basis von unserer Software etwas oder macht einen Pullrequest auf unseren Code. Super! Dann mussten wir keine Helferstunden oder Spendengelder dafür ausgeben und können gemeinsam ein besseres Gesamtergebnis zum Wohl der Helfer und der Bevölkerung erreichen.
+**Grundsätzlich möchten wir im Bereich des DRK gerne eigenentwickelte OpenSource Softwarelösungen als Strategie pushen.** Grund ist folgender: Wir haben keinen Grund Lösungen, die wir selbst anfertigen oder anfertigen lassen nicht als OpenSource zu entwickeln  oder entwickeln zu lassen. Es gibt keine "echten" Wettbewerber (MHD, Johanniter, etc. haben auch nur begrenzte Helferresoucen und das Ziel Menschen zu helfen), wir verdienen mit der Software kein Geld, etc.
+**Ziel ist es unsere Helfer zu entlasten bzw. zu unterstützen.** Entwickelt jemand auf Basis von unserer Software etwas oder macht einen Pullrequest auf unseren Code. Super! Dann mussten wir keine Helferstunden oder Spendengelder dafür ausgeben und können gemeinsam ein besseres Gesamtergebnis zum Wohl der Helfer und der Bevölkerung erreichen.
 
 
 Hierfür hat das Projekt die offizielle Rückendeckung des Kreisverbandes Groß-Gerau.
@@ -39,6 +39,6 @@ Von mehreren KABs wurden den Entwicklern berichtet, dass sie mit der aktuellen V
 
 Es gibt sonst noch zahlreiche Projekte viele Entwickler in den Reihen des DRK und anderer Hilfsorganisationen "mal schnell" irgendwas hilfreiches skripten oder coden. Hier sollte es mehr Wissenaustausch geben, um doppelte und Mehrarbeit zu vermeiden. Das soll ein weiterer Zweck dieses Projektes werden.
 
-*Fall also jemand Interesse hat dieses Projekt zu unterstützen und aktiv mitzugestallten würden wir uns sehr freuen. Wir sind über alle Mithilfe froh, sei es im Bereich Softwareentwicklung, Dokumentation oder Betatesting. Sollte jemand Ideen für weitere Software-Projekte haben würden wir uns auch über diese Vorschläge freuen und in weitere Üblegungen einbeziehen.*
+**Fall also jemand Interesse hat dieses Projekt zu unterstützen und aktiv mitzugestallten würden wir uns sehr freuen. Wir sind über alle Mithilfe froh, sei es im Bereich Softwareentwicklung, Dokumentation oder Betatesting. Sollte jemand Ideen für weitere Software-Projekte haben würden wir uns auch über diese Vorschläge freuen und in weitere Üblegungen einbeziehen.**
 
-Kontaktdaten und Kommunikationskanäle für das Projekt werden demnächst ergänzt.
+*Kontaktdaten und Kommunikationskanäle für das Projekt werden demnächst ergänzt.*
