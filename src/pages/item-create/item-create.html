@@ -1,0 +1,173 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'ITEM_CREATE_TITLE' | translate }}</ion-title>
+    <ion-buttons start>
+      <button ion-button (click)="cancel()">
+        <span color="primary" showWhen="ios">
+          {{ 'CANCEL_BUTTON' | translate }}
+        </span>
+        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button (click)="done()" [disabled]="!isReadyToSave" strong>
+        <span color="primary" showWhen="ios">
+          {{ 'DONE_BUTTON' | translate }}
+        </span>
+        <ion-icon name="md-checkmark" showWhen="core,android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <form *ngIf="form" [formGroup]="form" (ngSubmit)="createItem()">
+    <!--<input type="file" #fileInput style="visibility: hidden; height: 0px" name="files[]" (change)="processWebImage($event)" />
+    <div class="profile-image-wrapper" (click)="getPicture()">
+      <div class="profile-image-placeholder" *ngIf="!this.form.controls.profilePic.value">
+        <ion-icon name="add"></ion-icon>
+        <div>
+          {{ 'ITEM_CREATE_CHOOSE_IMAGE' | translate }}
+        </div>
+      </div>
+      <div class="profile-image" [style.backgroundImage]="getProfileImageStyle()" *ngIf="this.form.controls.profilePic.value"></div>
+    </div>-->
+
+    <ion-card>
+
+      <ion-card-title text-center>
+        <ion-row>
+          <ion-col col-1></ion-col>
+          <ion-col col-1>
+            <ion-thumbnail>
+              <img [src]="redcross" />
+            </ion-thumbnail>
+          </ion-col>
+          <ion-col col-8>
+            {{ 'ID_CARD_TITLE' | translate }}
+          </ion-col>
+          <ion-col col-1>
+            <ion-thumbnail>
+              <img [src]="redcross" />
+            </ion-thumbnail>
+          </ion-col>
+          <ion-col col-1></ion-col>
+        </ion-row>
+      </ion-card-title>
+
+      <ion-card-content>
+        <ion-row>
+          <ion-col>
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6 style="">{{ 'ID_CARD_LASTNAME' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="lastname"></ion-input>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6>{{ 'ID_CARD_FIRSTNAME' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="firstname"></ion-input>
+              </ion-col>
+            </ion-row>
+
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6>{{ 'ID_CARD_DATE_OF_BIRTH' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-datetime displayFormat="DD.MM.YYYY" pickerFormat="DD MM YYYY" formControlName="dateOfBirth"></ion-datetime>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6>{{ 'ID_CARD_GENDER' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="gender"></ion-input>
+              </ion-col>
+            </ion-row>
+
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6>{{ 'ID_CARD_RESIDENCE' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="residence"></ion-input>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6>{{ 'ID_CARD_NATIONALITY' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="nationality"></ion-input>
+              </ion-col>
+            </ion-row>
+
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6>{{ 'ID_CARD_STREET' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="street"></ion-input>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6>{{ 'ID_CARD_NR_OF_IDENTITY_DISK' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <p>-</p>
+              </ion-col>
+            </ion-row>
+
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6>{{ 'ID_CARD_PROFESSION' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="profession"></ion-input>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6></h6>
+              </ion-col>
+              <ion-col col-3>
+                <p></p>
+              </ion-col>
+            </ion-row>
+
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6>{{ 'ID_CARD_EMERGENCY_SHELTER' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="emergencyShelter"></ion-input>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6>{{ 'ID_CARD_DATE_OF_SHELTER' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="dateOfShelter"></ion-input>
+              </ion-col>
+            </ion-row>
+
+            <ion-row style="border: black; border-width: 1px; border-style: solid">
+              <ion-col col-3>
+                <h6>{{ 'ID_CARD_TRANSFER_TO' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="transferTo"></ion-input>
+              </ion-col>
+              <ion-col col-3 style="border-left: black; border-left-width: 1px; border-left-style: solid">
+                <h6>{{ 'ID_CARD_DATE_OF_TRANSFER' | translate }}</h6>
+              </ion-col>
+              <ion-col col-3>
+                <ion-input type="text" formControlName="dateOfTransfer"></ion-input>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </form>
+</ion-content>
