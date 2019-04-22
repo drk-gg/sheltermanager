@@ -1,0 +1,7 @@
+{
+  "name": "sheltermanager",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
